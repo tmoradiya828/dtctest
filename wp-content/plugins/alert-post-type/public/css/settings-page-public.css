@@ -1,0 +1,28 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .site-notice {
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 25px;
+  background-color: #145474;
+  color: #fff;
+  text-align: center;
+}
+
+.site-notice-dismiss {
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
